@@ -195,7 +195,35 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201903241512284_IntialModel.cs" />
+    <Compile Include="Migrations\201903241512284_IntialModel.Designer.cs">
+      <DependentUpon>201903241512284_IntialModel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201903241604415_AddTableGig.cs" />
+    <Compile Include="Migrations\201903241604415_AddTableGig.Designer.cs">
+      <DependentUpon>201903241604415_AddTableGig.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201903241619514_AddTableGig1.cs" />
+    <Compile Include="Migrations\201903241619514_AddTableGig1.Designer.cs">
+      <DependentUpon>201903241619514_AddTableGig1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201903241628478_ManqueColonnes.cs" />
+    <Compile Include="Migrations\201903241628478_ManqueColonnes.Designer.cs">
+      <DependentUpon>201903241628478_ManqueColonnes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201903241631573_ouverrideConventionforgigsandgennrs.cs" />
+    <Compile Include="Migrations\201903241631573_ouverrideConventionforgigsandgennrs.Designer.cs">
+      <DependentUpon>201903241631573_ouverrideConventionforgigsandgennrs.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201903241634475_updatedatagenretype.cs" />
+    <Compile Include="Migrations\201903241634475_updatedatagenretype.Designer.cs">
+      <DependentUpon>201903241634475_updatedatagenretype.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
+    <Compile Include="Models\ApplicationDbContext.cs" />
+    <Compile Include="Models\Genre.cs" />
+    <Compile Include="Models\Gig.cs" />
     <Compile Include="Models\IdentityModels.cs" />
     <Compile Include="Models\ManageViewModels.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -274,6 +302,26 @@
   <ItemGroup>
     <None Include="packages.config" />
     <Content Include="Scripts\jquery-1.10.2.min.map" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Migrations\201903241512284_IntialModel.resx">
+      <DependentUpon>201903241512284_IntialModel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201903241604415_AddTableGig.resx">
+      <DependentUpon>201903241604415_AddTableGig.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201903241619514_AddTableGig1.resx">
+      <DependentUpon>201903241619514_AddTableGig1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201903241628478_ManqueColonnes.resx">
+      <DependentUpon>201903241628478_ManqueColonnes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201903241631573_ouverrideConventionforgigsandgennrs.resx">
+      <DependentUpon>201903241631573_ouverrideConventionforgigsandgennrs.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201903241634475_updatedatagenretype.resx">
+      <DependentUpon>201903241634475_updatedatagenretype.cs</DependentUpon>
+    </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
