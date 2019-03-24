@@ -219,6 +219,10 @@
     <Compile Include="Migrations\201903241634475_updatedatagenretype.Designer.cs">
       <DependentUpon>201903241634475_updatedatagenretype.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201903241637532_AddData.cs" />
+    <Compile Include="Migrations\201903241637532_AddData.Designer.cs">
+      <DependentUpon>201903241637532_AddData.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\ApplicationDbContext.cs" />
@@ -321,6 +325,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201903241634475_updatedatagenretype.resx">
       <DependentUpon>201903241634475_updatedatagenretype.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201903241637532_AddData.resx">
+      <DependentUpon>201903241637532_AddData.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
